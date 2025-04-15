@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: hsl(214, 17%, 92%);
 }
 
 main {
@@ -9,9 +10,84 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed";
 }
 
 
+article {
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+article header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+article header img {
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+}
+
+article header h1, article header h2 {
+  margin: 0;
+}
+
+article header h1 {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+article header h2 {
+  font-size: 11px;
+  font-weight: 300;
+}
+
+article h1 {
+  font-weight: 600;
+}
+
+
+
+.violet img {
+  border: 2px solid hsl(264, 82%, 80%);
+}
+
+.violet {
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(260, 100%, 95%);
+}
+
+
+.gray {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(0, 0%, 100%);
+}
+
+.gray header h2 {
+  color: hsl(0, 0%, 81%);
+}
+
+.darkblue img {
+  border: 2px solid hsl(263, 55%, 52%);
+}
+
+.darkblue {
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(214, 17%, 92%);
+}
+
+.white{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}
+
+.white header h2 {
+  color: hsl(0, 0%, 7%);
+}
 
 .attribution {
   font-size: 11px;
