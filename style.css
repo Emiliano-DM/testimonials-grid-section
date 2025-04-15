@@ -4,7 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: hsl(214, 17%, 92%);
+  background-color: hsl(0,0%, 95%);
   min-height: 100vh;
 }
 
@@ -27,6 +27,7 @@ main {
 article {
   padding: 1.5rem;
   border-radius: 10px;
+  box-shadow: 20px 20px 20px hsl(0, 0%, 81%);
 }
 
 article header {
