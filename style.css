@@ -127,6 +127,9 @@ article h1 {
   article:nth-child(1){
     grid-column: 1/3;
     grid-row: 1;
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top 0% right 30%;
   }
 
   article:nth-child(2){
